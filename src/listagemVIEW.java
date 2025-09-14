@@ -145,8 +145,8 @@ public class listagemVIEW extends javax.swing.JFrame {
 
             int id = Integer.parseInt(idStr);
             ProdutosDAO produtosdao = new ProdutosDAO();
-            produtosdao.venderProduto(id); // chama o método novo
-            listarProdutos(); // recarrega a tabela
+            produtosdao.venderProduto(id);
+            listarProdutos();
             id_produto_venda.setText("");
         } catch (Exception e) {
             JOptionPane.showMessageDialog(this, "Erro: " + e.getMessage());
