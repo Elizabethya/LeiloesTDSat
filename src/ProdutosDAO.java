@@ -33,7 +33,7 @@ public class ProdutosDAO {
 
             JOptionPane.showMessageDialog(null, "Produto cadastrado com sucesso!");
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "Erro ao cadastrar: " + e.getMessage());
+            JOptionPane.showMessageDialog(null, "Erro ao cadastrar o producto: " + e.getMessage());
         }
 
         //conn = new conectaDAO().connectDB();
