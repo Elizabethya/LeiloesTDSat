@@ -80,7 +80,7 @@ public class ProdutosDAO {
             listagem.add(produto);
         }
     } catch (SQLException e) {
-        JOptionPane.showMessageDialog(null, "Erro ao listar vendidos: " + e.getMessage());
+        JOptionPane.showMessageDialog(null, "Erro ao listar produtos vendidos: " + e.getMessage());
     }
     return listagem;
 }
@@ -100,7 +100,7 @@ public class ProdutosDAO {
                 JOptionPane.showMessageDialog(null, "Produto não encontrado!");
             }
         } catch (Exception e) {
-            JOptionPane.showMessageDialog(null, "Erro ao vender: " + e.getMessage());
+            JOptionPane.showMessageDialog(null, "Erro ao vender produto: " + e.getMessage());
         }
     }
 }
